@@ -7,7 +7,7 @@
         android:layout_height="match_parent"
         tools:context=".LoginActivity"
         android:orientation="vertical"
-        android:background="@mipmap/background3">
+        android:background="@drawable/background3">
 
     <TextView
             android:layout_width="match_parent"
@@ -33,7 +33,7 @@
                 android:layout_height="35dp"
                 android:inputType="textEmailAddress"
                 android:ems="10"
-                android:id="@+id/editText4"
+                android:id="@+id/emailEditText"
                 android:hint="Email"
                 android:background="#fff"
                 android:layout_marginRight="20dp"
@@ -44,7 +44,7 @@
                 android:layout_height="35dp"
                 android:inputType="textPassword"
                 android:ems="10"
-                android:id="@+id/editText5"
+                android:id="@+id/passwordEditText"
                 android:hint="Passowrd"
                 android:background="#fff"
                 android:layout_marginTop="10dp"
